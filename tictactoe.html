@@ -26,12 +26,22 @@
         </div>
 
         <h2 id="statusText"></h2>
-        <button id="restartBtn">Restart</button>
+        <div class="button">
+            <button id="restartBtn">Restart</button>
+            <select id="player">
+                <option value="human">Player Vs Player</option>
+                <option value="AI">Player Vs AI</option>
+            </select>
+            <select id="difficultySelect">
+                <option value="easy">Easy</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+
     </div>
 
 
     <script src="Script/index.js">
-        currentPlayer = "X";
     </script>
 
 
